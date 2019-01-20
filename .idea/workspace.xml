@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="18892571-6c35-4bd6-a325-57bd7f8b9cce" name="Default Changelist" comment="" />
+    <list default="true" id="18892571-6c35-4bd6-a325-57bd7f8b9cce" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nginx+php/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/nginx+php/docker-compose.yml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -23,7 +26,7 @@
         <counts>
           <entry key="Dockerfile" value="9" />
           <entry key="conf" value="2" />
-          <entry key="php" value="3" />
+          <entry key="php" value="4" />
           <entry key="py" value="2" />
           <entry key="txt" value="1" />
           <entry key="yml" value="8" />
@@ -32,25 +35,25 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Dockerfile" value="9" />
-          <entry key="PLAIN_TEXT" value="8" />
+          <entry key="PLAIN_TEXT" value="9" />
           <entry key="YAML" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Dockerfile" value="138" />
-          <entry key="conf" value="6" />
+          <entry key="conf" value="45" />
           <entry key="php" value="119" />
           <entry key="py" value="64" />
           <entry key="txt" value="8" />
-          <entry key="yml" value="212" />
+          <entry key="yml" value="222" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Dockerfile" value="138" />
-          <entry key="PLAIN_TEXT" value="197" />
-          <entry key="YAML" value="212" />
+          <entry key="PLAIN_TEXT" value="236" />
+          <entry key="YAML" value="222" />
         </counts>
       </usages-collector>
     </session>
@@ -69,8 +72,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/nginx+php/docker-compose.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" lean-forward="true" selection-end-line="15" />
+            <state relative-caret-position="120">
+              <caret line="8" column="47" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/nginx+php/www/hello-world.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="2" lean-forward="true" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -80,6 +92,8 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>/usr/share/nginx/html/</find>
+      <find>index</find>
+      <find>location</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -98,8 +112,8 @@
         <option value="$PROJECT_DIR$/nginx+python/applications/hello-world.py" />
         <option value="$PROJECT_DIR$/nginx+php/www/Dockerfile" />
         <option value="$PROJECT_DIR$/nginx+php/www/hello-world.php" />
-        <option value="$PROJECT_DIR$/nginx+php/docker-compose.yml" />
         <option value="$PROJECT_DIR$/nginx+php/site.conf" />
+        <option value="$PROJECT_DIR$/nginx+php/docker-compose.yml" />
       </list>
     </option>
   </component>
@@ -110,8 +124,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="824" />
-    <option name="y" value="120" />
+    <option name="x" value="370" />
+    <option name="y" value="197" />
     <option name="width" value="1298" />
     <option name="height" value="732" />
   </component>
@@ -190,15 +204,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1547995235222</updated>
-      <workItem from="1547995236461" duration="7289000" />
+      <workItem from="1547995236461" duration="8700000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7289000" />
+    <option name="totallyTimeSpent" value="8700000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="824" y="120" width="1298" height="732" extended-state="0" />
+    <frame x="370" y="197" width="1298" height="732" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
@@ -299,7 +313,7 @@
     <entry file="file://$PROJECT_DIR$/nginx+php/www/hello-world.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
-          <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
+          <caret line="2" column="2" lean-forward="true" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
         </state>
       </provider>
     </entry>
@@ -312,8 +326,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/nginx+php/docker-compose.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" lean-forward="true" selection-end-line="15" />
+        <state relative-caret-position="120">
+          <caret line="8" column="47" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
         </state>
       </provider>
     </entry>
