@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="18892571-6c35-4bd6-a325-57bd7f8b9cce" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nginx+php/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/nginx+php/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nginx+php/site.conf" beforeDir="false" afterPath="$PROJECT_DIR$/nginx+php/site.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nginx+php/www/hello-world.php" beforeDir="false" afterPath="$PROJECT_DIR$/nginx+php/www/hello-world.php" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -26,54 +27,54 @@
         <counts>
           <entry key="Dockerfile" value="9" />
           <entry key="conf" value="2" />
-          <entry key="php" value="4" />
+          <entry key="php" value="5" />
           <entry key="py" value="2" />
           <entry key="txt" value="1" />
-          <entry key="yml" value="8" />
+          <entry key="yml" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Dockerfile" value="9" />
-          <entry key="PLAIN_TEXT" value="9" />
-          <entry key="YAML" value="8" />
+          <entry key="PLAIN_TEXT" value="10" />
+          <entry key="YAML" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Dockerfile" value="138" />
-          <entry key="conf" value="45" />
-          <entry key="php" value="119" />
+          <entry key="conf" value="83" />
+          <entry key="php" value="142" />
           <entry key="py" value="64" />
           <entry key="txt" value="8" />
-          <entry key="yml" value="222" />
+          <entry key="yml" value="237" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Dockerfile" value="138" />
-          <entry key="PLAIN_TEXT" value="236" />
-          <entry key="YAML" value="222" />
+          <entry key="PLAIN_TEXT" value="297" />
+          <entry key="YAML" value="237" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/nginx+php/site.conf">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="32" lean-forward="true" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+            <state relative-caret-position="75">
+              <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/nginx+php/docker-compose.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="47" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
+            <state relative-caret-position="105">
+              <caret line="7" column="14" lean-forward="true" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -81,8 +82,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/nginx+php/www/hello-world.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="2" lean-forward="true" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
+            <state relative-caret-position="15">
+              <caret line="1" column="22" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -112,8 +113,9 @@
         <option value="$PROJECT_DIR$/nginx+python/applications/hello-world.py" />
         <option value="$PROJECT_DIR$/nginx+php/www/Dockerfile" />
         <option value="$PROJECT_DIR$/nginx+php/www/hello-world.php" />
-        <option value="$PROJECT_DIR$/nginx+php/site.conf" />
+        <option value="$PROJECT_DIR$/nginx+php/www/index.php" />
         <option value="$PROJECT_DIR$/nginx+php/docker-compose.yml" />
+        <option value="$PROJECT_DIR$/nginx+php/site.conf" />
       </list>
     </option>
   </component>
@@ -124,8 +126,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="370" />
-    <option name="y" value="197" />
+    <option name="x" value="349" />
+    <option name="y" value="239" />
     <option name="width" value="1298" />
     <option name="height" value="732" />
   </component>
@@ -204,15 +206,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1547995235222</updated>
-      <workItem from="1547995236461" duration="8700000" />
+      <workItem from="1547995236461" duration="11034000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8700000" />
+    <option name="totallyTimeSpent" value="11034000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="370" y="197" width="1298" height="732" extended-state="0" />
+    <frame x="349" y="239" width="1298" height="732" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
@@ -282,13 +284,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nginx/docker-compose.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/python/docker-compose.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -310,24 +305,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nginx+php/www/hello-world.php">
+    <entry file="file://$PROJECT_DIR$/nginx+php/www/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="2" lean-forward="true" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
+        <state>
+          <caret column="4" selection-start-column="4" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nginx+php/site.conf">
+    <entry file="file://$PROJECT_DIR$/nginx+php/www/hello-world.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="32" lean-forward="true" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+        <state relative-caret-position="15">
+          <caret line="1" column="22" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nginx/docker-compose.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="14" lean-forward="true" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/nginx+php/docker-compose.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="47" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
+        <state relative-caret-position="105">
+          <caret line="7" column="14" lean-forward="true" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nginx+php/site.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
         </state>
       </provider>
     </entry>
