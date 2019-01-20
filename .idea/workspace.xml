@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="18892571-6c35-4bd6-a325-57bd7f8b9cce" name="Default Changelist" comment="" />
+    <list default="true" id="18892571-6c35-4bd6-a325-57bd7f8b9cce" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/nginx+python/applications/hello-world.py" beforeDir="false" afterPath="$PROJECT_DIR$/nginx+python/applications/hello-world.py" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -23,7 +25,7 @@
         <counts>
           <entry key="Dockerfile" value="3" />
           <entry key="conf" value="1" />
-          <entry key="py" value="1" />
+          <entry key="py" value="2" />
           <entry key="txt" value="1" />
           <entry key="yml" value="2" />
         </counts>
@@ -31,13 +33,14 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Dockerfile" value="3" />
-          <entry key="PLAIN_TEXT" value="3" />
+          <entry key="PLAIN_TEXT" value="4" />
           <entry key="YAML" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Dockerfile" value="133" />
+          <entry key="py" value="64" />
           <entry key="txt" value="8" />
           <entry key="yml" value="85" />
         </counts>
@@ -45,7 +48,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Dockerfile" value="133" />
-          <entry key="PLAIN_TEXT" value="8" />
+          <entry key="PLAIN_TEXT" value="72" />
           <entry key="YAML" value="85" />
         </counts>
       </usages-collector>
@@ -71,7 +74,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/nginx+python/applications/requirements.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state>
@@ -80,7 +83,19 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/nginx+python/applications/hello-world.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="82" lean-forward="true" selection-start-column="82" selection-end-column="82" />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -88,11 +103,11 @@
         <option value="$PROJECT_DIR$/nginx/nginx.conf/nginx.conf" />
         <option value="$PROJECT_DIR$/nginx/Dockerfile" />
         <option value="$PROJECT_DIR$/nginx/docker-compose.yml" />
-        <option value="$PROJECT_DIR$/nginx+python/applications/hello-world.py" />
         <option value="$PROJECT_DIR$/nginx+python/Dockerfile" />
         <option value="$PROJECT_DIR$/nginx+python/docker-compose.yml" />
         <option value="$PROJECT_DIR$/nginx+python/applications/Dockerfile" />
         <option value="$PROJECT_DIR$/nginx+python/applications/requirements.txt" />
+        <option value="$PROJECT_DIR$/nginx+python/applications/hello-world.py" />
       </list>
     </option>
   </component>
@@ -108,6 +123,7 @@
     <option name="width" value="1298" />
     <option name="height" value="732" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -171,12 +187,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1547995235222</updated>
-      <workItem from="1547995236461" duration="2746000" />
+      <workItem from="1547995236461" duration="3046000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2746000" />
+    <option name="totallyTimeSpent" value="3046000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="549" y="173" width="1298" height="732" extended-state="0" />
@@ -225,9 +241,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nginx+python/applications/hello-world.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/nginx+python/Dockerfile">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -249,6 +262,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nginx+python/applications/hello-world.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="82" lean-forward="true" selection-start-column="82" selection-end-column="82" />
         </state>
       </provider>
     </entry>
