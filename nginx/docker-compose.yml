@@ -1,0 +1,9 @@
+version: '3'
+services:
+  nginx: 
+    image: nginx:latest
+    container_name: nginx-production
+    ports:
+      - 100:80
+    volumes:
+      - ./web-content:/usr/share/nginx/html

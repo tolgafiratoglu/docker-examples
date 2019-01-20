@@ -1,0 +1,9 @@
+version: '3'
+services:
+  web:
+    build: applications
+    command: python hello-world.py
+    ports:
+    - "101:5000"
+    volumes:
+    - ./applications:/code
